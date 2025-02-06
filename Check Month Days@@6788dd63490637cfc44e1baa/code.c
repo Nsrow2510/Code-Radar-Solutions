@@ -2,7 +2,7 @@
 
 int main() {
     int month;
-    scanf("5d", &month);
+    scanf("%d", &month);
     switch (month) {
         case 1: printf("January");
         break;
