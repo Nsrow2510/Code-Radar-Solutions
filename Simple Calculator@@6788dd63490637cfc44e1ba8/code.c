@@ -10,7 +10,11 @@ int main() {
     } else if (o == '-') {
         printf("%d", a-b);        
     } else if (o == '/') {
-        printf("%d", a/b);
+        if (b != 0) {
+            printf("%d", a / b);
+        } else {
+            printf("error");
+        }
     } else if (o == '*'){
         printf("%d", a*b);
     }
