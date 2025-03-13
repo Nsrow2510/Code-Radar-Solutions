@@ -2,7 +2,7 @@
 int main() {
     int n;
     scanf("%d", &n);
-    for(int i=n; i>0; i--) {
+    for(int i=1; i<=n; i--) {
         for(int space = 1; space<= n-i; space++) {
             printf(" ");
         }
