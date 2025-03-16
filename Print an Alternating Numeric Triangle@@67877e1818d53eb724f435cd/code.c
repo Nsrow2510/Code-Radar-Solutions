@@ -10,8 +10,8 @@ int main() {
             printf("%d ", 1);
         }
         for(int j=1; j<=i; j++) {
-            num = num--;
             printf("%d", num);
+            num = num--;
         }
         printf("\n");
     }
