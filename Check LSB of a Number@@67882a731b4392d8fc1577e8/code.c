@@ -6,9 +6,9 @@ int main() {
     scanf("%d", &num);
 
     if (num & 1) {
-        printf("The Least Significant Bit (LSB) is 1.\n");
+        printf("Set \n");
     } else {
-        printf("The Least Significant Bit (LSB) is 0.\n");
+        printf("Not Set \n");
     }
 
     return 0;
