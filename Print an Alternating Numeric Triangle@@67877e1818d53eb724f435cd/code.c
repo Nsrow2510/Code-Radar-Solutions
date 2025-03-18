@@ -10,7 +10,7 @@ int main() {
             num=1;
         }
         for(int j=1; j<=i; j++) {
-            printf("%d", num);
+            printf("%d ", num);
             num = 1-num;
         }
         printf("\n");
