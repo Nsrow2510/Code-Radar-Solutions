@@ -9,6 +9,6 @@ int isPrime(int n) {
         return 1; 
     }
     else {
-        retrun 0;
+        return 0;
     }
 }
