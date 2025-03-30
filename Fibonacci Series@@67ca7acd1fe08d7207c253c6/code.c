@@ -2,23 +2,11 @@
 void fibonacciSeries(int n) {
     int x;
     scanf("%d", &x);
-    int a = 0, b = 1;
+    int a = 0, b = 1, next;
     for(int i =1; i<=x; i++) {
-        int next = a+b;
+        next = a+b;
         printf("%d", a);
         a = b;
         b = next;
     }
 }
-
-/*int main() {
-    int n;
-    scanf("%d", &n);
-    if(n<=0) {
-        printf("invalid Input\n");
-        return 0;
-    }
-
-    fibonacciSeries(n);
-    return 0;
-}*/
