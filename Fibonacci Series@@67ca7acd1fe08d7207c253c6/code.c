@@ -10,9 +10,3 @@ void fibSeries(int n) {
         b = next;
     }
 }
-
-int main() {
-    int n;
-    scanf("%d", &n);
-    fibSeries(n);
-}
