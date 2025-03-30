@@ -11,7 +11,7 @@ void fibonacciSeries(int n) {
     }
 }
 
-int main() {
+/*int main() {
     int n;
     scanf("%d", &n);
     if(n<=0) {
@@ -21,4 +21,4 @@ int main() {
 
     fibonacciSeries(n);
     return 0;
-}
+}*/
