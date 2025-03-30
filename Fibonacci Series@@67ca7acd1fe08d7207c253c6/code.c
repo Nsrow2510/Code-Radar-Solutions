@@ -1,5 +1,5 @@
 #include <stdio.h>
-void fibSeries(int n) {
+void fibonacciSeries(int n) {
     int n;
     scanf("%d", &n);
     int a = 0, b = 1;
@@ -10,3 +10,5 @@ void fibSeries(int n) {
         b = next;
     }
 }
+
+
