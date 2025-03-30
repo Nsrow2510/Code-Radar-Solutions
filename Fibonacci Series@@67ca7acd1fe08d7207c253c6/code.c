@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void fibSeries(int n) {
     int n;
     scanf("%d", &n);
     int a = 0, b = 1;
@@ -9,6 +9,10 @@ int main() {
         a = b;
         b = next;
     }
+}
 
-    return 0;
+int main() {
+    int n;
+    scanf("%d", &n);
+    fibSeries(n);
 }
