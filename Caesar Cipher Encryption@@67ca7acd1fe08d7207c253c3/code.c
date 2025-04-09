@@ -9,6 +9,4 @@ void caesarCipher(char message[], int shift, char encrypted[]) {
         }
     }
 
-    printf("%s", encrypted);
-
 }
